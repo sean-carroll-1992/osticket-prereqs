@@ -102,9 +102,13 @@ From the installation folder, install Vc_redist.x86
 <br />
 
 <p>
-From the Installation folder, install MySQL
+From the Installation folder, install MySQL using the following settings.
 
-Make Sure to follow these steps, Typical Setup > Launch Configuration Wizard (after the installation) > Standard Configuration > Install as Windows Service > Make the Username and Password "root"
+Typical Setup 
+
+Launch Configuration Wizard  > Standard Configuration > Install as Windows Service
+
+Make the Username and Password "root"
 </p>
 <p>
 <img src="https://i.imgur.com/rl0acRX.jpeg" height="50%" width="50%" alt="Disk Sanitization Steps"/>
@@ -131,11 +135,11 @@ Then reload the IIS by clicking "Stop" then "Start"
 <br />
 
 <p>
-From the installation folder, unzip the “osTicket-v1.15.8.zip” folder to the desktop. 
+From the installation folder unzip the “osTicket-v1.15.8.zip” folder to the desktop. 
   
 Then from the desktop, copy the “upload” folder into “c:\inetpub\wwwroot” and Rename “upload” to “osTicket”.
 
-Then Reload the IIS again (Open IIS, Stop and Start the server)
+Then Reload the IIS again (Open IIS, Stop and Start the server).
 </p>
 <p>
 <img src="https://i.imgur.com/VCwsqVc.jpeg" height="50%" width="50%" alt="Disk Sanitization Steps"/>
@@ -159,7 +163,7 @@ Enable: php_imap.dll
 Enable: php_intl.dll
 Enable: php_opcache.dll
 
-Now refresh the osTicket site in your browser and see that the extensions are now enabled
+Now we can go back and refresh the osTicket site in our browser and see that the extensions are now enabled.
 
 
 </p>
@@ -187,7 +191,7 @@ Go back to "properties" > "edit" > "add"
 
 Now we can type "Everyone" in the box and select "ok" (tip: you can click "check names" to make sure that the user or group name you typed in exists).
 
-Finally, make sure to allow "everyone" to have all permissions (just check the "full control" box).
+Finally, make sure to allow "everyone" to have all permissions (simply check the "full control" box).
 </p>
 <p>
 <img src="https://i.imgur.com/3bZ4c4k.jpeg" height="50%" width="50%" alt="Disk Sanitization Steps"/>
@@ -197,7 +201,7 @@ Finally, make sure to allow "everyone" to have all permissions (just check the "
 <br />
 
 <p>
-The next step is to continue setting up osTicket in the browser > click "Continue"
+The next step is to continue setting up osTicket in the browser by clicking continue.
 
 Fill out the text fields but stop when you reach the "database settings" section. 
 </p>
