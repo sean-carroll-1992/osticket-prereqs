@@ -102,6 +102,14 @@ From the installation folder, install Vc_redist.x86
 <br />
 
 <p>
+From the Installation folder, unzip the folder named "php-7.3.8-nts-Win32-VC15-x86.zip" into the "PHP" folder we created in the C:\ drive.
+</p>
+<p>
+<img src="https://i.imgur.com/mFo2knJ.jpeg" height="50%" width="50%" alt="Disk Sanitization Steps"/>
+</p>
+<br />
+
+<p>
 From the Installation folder, install MySQL using the following settings.
 
 Typical Setup 
